@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3829f5f1-f3b2-4871-a0cc-f8f4a3298723" name="Changes" comment="202204 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202/Round.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202203/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202203/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202203/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202203/Rucksack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202207/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202207/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202207/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202207/WholeDisk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202205/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202205/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="secondStar" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -128,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202207.Main" />
-        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202202.Main" />
-        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202203.Main" />
-        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202204.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202207.Main" />
+        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202204.Main" />
+        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202203.Main" />
+        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202202.Main" />
       </list>
     </recent_temporary>
   </component>

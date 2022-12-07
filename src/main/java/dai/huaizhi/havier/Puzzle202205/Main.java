@@ -9,6 +9,7 @@ public class Main {
 
     public static void main(String[] args) {
 
+        System.out.println();
         var allStacks = new AllStacks(0);
         String[] instructions = wholeInstruction.split("\n");
         List<Operation> operations = new ArrayList<>();
