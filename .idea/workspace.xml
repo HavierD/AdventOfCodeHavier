@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3829f5f1-f3b2-4871-a0cc-f8f4a3298723" name="Changes" comment="1">
+    <list default="true" id="3829f5f1-f3b2-4871-a0cc-f8f4a3298723" name="Changes" comment="2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202204/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202204/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202204/RawData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202205/AllStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202205/AllStacks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +51,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.dai.huaizhi.havier.Puzzle202204.Main">
     <configuration name="AllStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202205.AllStacks" />
       <module name="AdventOfCode" />
@@ -75,13 +78,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="dai.huaizhi.havier.Puzzle202204.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202204.Main" />
+      <module name="AdventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202204.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202204.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AllStacks" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.AllStacks" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670372455926</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2">
+      <created>1670373937589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670373937589</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
 </project>
