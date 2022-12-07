@@ -166,12 +166,12 @@ public class AllStacks {
 
     public String operate (List<Operation> operations){
         for (Operation operation : operations) {
-            List<String> buffer = new ArrayList<>();
             var fromStack = getStack(operation.getMoveFrom());
             var toStack = getStack(operation.getMoveTo());
-            for(var i = 1; i <= operation.getMoveCount(); i++){
-                buffer.add(fromStack.details.get(fromStack.details.size() - 1));
-                fromStack.details.remove(fromStack.details.size() - 1);
+            List<String> buffer = new ArrayList<>(fromStack.details.subList(fromStack.details.size() - operation.getMoveCount(),
+                    fromStack.details.size()));
+            for (var j = 0; j < operation.getMoveCount(); j ++) {
+                fromStack.details.remove(fromStack.details.size()-1);
             }
             toStack.details.addAll(buffer);
             buffer.clear();
