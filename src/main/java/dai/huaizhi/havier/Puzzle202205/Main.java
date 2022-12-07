@@ -1,7 +1,6 @@
 package dai.huaizhi.havier.Puzzle202205;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import static dai.huaizhi.havier.Puzzle202205.RawData.wholeInstruction;
