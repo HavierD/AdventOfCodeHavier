@@ -1,4 +1,4 @@
-package dai.huaizhi.havier.Puzzle202202;
+package dai.huaizhi.havier.Puzzle202202_2;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,9 +1,9 @@
 package dai.huaizhi.havier.Puzzle202202;
 
 public class Round {
-    private String opponentAttack;
-    private String convertedOpponentAttack;
-    private String myAttack;
+    private final String opponentAttack;
+    private final String convertedOpponentAttack;
+    private final String myAttack;
     private int score;
 
     Round(String opponentAttack, String myAttack){
@@ -26,8 +26,19 @@ public class Round {
     }
 
     public int mark(){
+        System.out.println("my: ");
+        System.out.println(myAttack);
+        System.out.println("oppo");
+        System.out.println(opponentAttack);
+        System.out.println("converted oppo");
+        System.out.println(convertedOpponentAttack);
         int attackScore = getAttackScore();
+        System.out.println("attack score " + attackScore);
         int resultScore = getResultScore();
+        System.out.println("result score " + resultScore);
+        System.out.println("returned: ");
+        System.out.println(attackScore + resultScore);
+        System.out.println("=============");
         return attackScore+resultScore;
     }
 
@@ -37,21 +48,21 @@ public class Round {
         }
         if(convertedOpponentAttack.equals("X")){
             if(myAttack.equals("Y")){
-                return 0;
+                return 6;
             }
-            return 6;
+            return 0;
         }
         if(convertedOpponentAttack.equals("Y")){
             if(myAttack.equals("Z")){
-                return 0;
+                return 6;
             }
-            return 6;
+            return 0;
         }
         if(convertedOpponentAttack.equals("Z")){
             if(myAttack.equals("X")){
-                return 0;
+                return 6;
             }
-            return 6;
+            return 0;
         }
         System.out.println("SOmething wrong! Round.getResultScore()");
         return 0;
