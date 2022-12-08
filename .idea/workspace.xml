@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3829f5f1-f3b2-4871-a0cc-f8f4a3298723" name="Changes" comment="202207 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202201/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202201/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202201/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202_2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202_2/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202_2/Round.java" afterDir="false" />
+    <list default="true" id="3829f5f1-f3b2-4871-a0cc-f8f4a3298723" name="Changes" comment="2022 all completed yet (until 08122022 noon)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202208/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202208/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202208/RawData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202208/Row.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202208/ScenicScorer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202208/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202/RawData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202/RawData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202/Round.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202202/Round.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "extract.method.default.visibility": "private",
     "last_opened_file_path": "D:/Projects/JavaProjects/AdventOfCodePuzzles/AdventOfCode/src/main/java/dai/huaizhi/havier/Puzzle202202_2"
   }
 }]]></component>
@@ -63,13 +62,39 @@
       <recent name="D:\Projects\JavaProjects\AdventOfCodePuzzles\AdventOfCode\src\main\java\dai\huaizhi\havier\Puzzle202202_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dai.huaizhi.havier.Puzzle202201.Main">
+  <component name="RunManager" selected="Application.dai.huaizhi.havier.Puzzle202208.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202205.Main" />
+      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202208.Main" />
       <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202205.*" />
+          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202208.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Row" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202208.Row" />
+      <module name="AdventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202208.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ScenicScorer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202208.ScenicScorer" />
+      <module name="AdventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202208.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,39 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dai.huaizhi.havier.Puzzle202202.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202202.Main" />
-      <module name="AdventOfCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202202.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dai.huaizhi.havier.Puzzle202207.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202207.Main" />
-      <module name="AdventOfCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202207.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202208.Main" />
+        <item itemvalue="Application.ScenicScorer" />
+        <item itemvalue="Application.Row" />
         <item itemvalue="Application.dai.huaizhi.havier.Puzzle202201.Main" />
         <item itemvalue="Application.dai.huaizhi.havier.Puzzle202202_2.Main" />
-        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202202.Main" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202207.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +148,7 @@
       <updated>1670367191420</updated>
       <workItem from="1670367192660" duration="5416000" />
       <workItem from="1670453105295" duration="53000" />
-      <workItem from="1670458216100" duration="5873000" />
+      <workItem from="1670458216100" duration="18126000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1670372455926</created>
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670453658902</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2022 all completed yet (until 08122022 noon)">
+      <created>1670474064343</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670474064343</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +219,8 @@
     <MESSAGE value="2" />
     <MESSAGE value="202204 completed" />
     <MESSAGE value="202207 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="202207 completed" />
+    <MESSAGE value="2022 all completed yet (until 08122022 noon)" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 all completed yet (until 08122022 noon)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -227,6 +234,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202207/WholeDisk.java</url>
           <line>72</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202208/ScenicScorer.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
