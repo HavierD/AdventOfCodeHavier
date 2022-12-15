@@ -4,44 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3829f5f1-f3b2-4871-a0cc-f8f4a3298723" name="Changes" comment="2022 08 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202209/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202209/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202209/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202209/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202209/Rope.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202210/Attempt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202210/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202210/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202210/Register.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202211/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202211/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202211/Monkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202211/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202211/UpperMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202212/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202212/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202212/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202212/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202212/ResultPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/AList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/APackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/Int.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202214/CoordinateSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202214/HavierTimer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202214/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202214/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202214/PointCondition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202214/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202214/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202214/SandIsComing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202215/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202215/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202215/RawData.java" afterDir="false" />
+    <list default="true" id="3829f5f1-f3b2-4871-a0cc-f8f4a3298723" name="Changes" comment="2022 15 completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202215/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202215/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +146,7 @@
       <workItem from="1670458216100" duration="19548000" />
       <workItem from="1670562000768" duration="8154000" />
       <workItem from="1670817760697" duration="55957000" />
-      <workItem from="1671017654937" duration="41349000" />
+      <workItem from="1671017654937" duration="42033000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1670372455926</created>
@@ -225,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670494058822</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2022 15 completed">
+      <created>1671105507473</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1671105507473</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +233,8 @@
     <MESSAGE value="202207 completed" />
     <MESSAGE value="2022 all completed yet (until 08122022 noon)" />
     <MESSAGE value="2022 08 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022 08 completed" />
+    <MESSAGE value="2022 15 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 15 completed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

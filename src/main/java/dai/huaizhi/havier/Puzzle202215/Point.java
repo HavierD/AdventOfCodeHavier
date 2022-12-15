@@ -1,9 +1,8 @@
 package dai.huaizhi.havier.Puzzle202215;
 
 public class Point {
-    private int x;
-    private int y;
-    private boolean noBeacon = false;
+    private final int x;
+    private final int y;
 
     Point(int x, int y) {
         this.x = x;
@@ -18,7 +17,4 @@ public class Point {
         return y;
     }
 
-    public void setNoBeacon(boolean noBeacon) {
-        this.noBeacon = noBeacon;
-    }
 }

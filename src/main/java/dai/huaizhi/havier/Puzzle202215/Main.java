@@ -13,7 +13,6 @@ public class Main {
 
     private static int finalX;
 
-    public static Set<Integer> noBeaconSet = new HashSet<>();
     public static Map<Point, Point> coorPairs = new HashMap<>();
 
     static String[] information;
