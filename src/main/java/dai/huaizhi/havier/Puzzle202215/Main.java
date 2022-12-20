@@ -45,8 +45,8 @@ public class Main {
 
         var minX = 0;
         var maxX = 0;
-        Map<Integer, Integer> leftPartList = new HashMap<>();
-        leftPartList.put(0, edgeEnd);
+        Map<Integer, Integer> remainedPiecesList = new HashMap<>();
+        remainedPiecesList.put(0, edgeEnd);
         //information from every sensor
         for (var pair : coorPairs.entrySet()) {
             var sensorP = pair.getKey();
@@ -61,12 +61,14 @@ public class Main {
             var range = radius - targetDistance;
             minX = Math.max(sensorP.getX() - range, 0);
             maxX = Math.min(sensorP.getX() + range, edgeEnd);
-            leftPartList = (cutRangeFromRemainedPart(leftPartList, minX, maxX));
-            if (leftPartList.size() == 0) {
+            remainedPiecesList = (cutRangeFromRemainedPart(remainedPiecesList, minX, maxX));
+            if (remainedPiecesList.size() == 0) {
                 break;
             }
         }
-        for (var area : leftPartList.entrySet()) {
+
+
+        for (var area : remainedPiecesList.entrySet()) {
             if (Objects.equals(area.getValue(), area.getKey())) {
                 finalX = area.getKey();
                 return false;

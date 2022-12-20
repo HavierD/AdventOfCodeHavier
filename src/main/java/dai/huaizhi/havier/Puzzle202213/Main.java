@@ -6,7 +6,7 @@ import java.util.List;
 public class Main {
 
     static String[] pairs;
-    static List<APackage> packages = new ArrayList<>();
+    public static List<APackage> packages = new ArrayList<>();
     public static void main(String[] args) {
         var rawData = new RawData();
         pairs = rawData.getPairs();

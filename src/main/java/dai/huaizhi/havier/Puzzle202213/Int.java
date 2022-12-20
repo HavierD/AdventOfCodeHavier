@@ -22,9 +22,14 @@ public class Int implements Item{
     @Override
     public int comparedIntResult(Item item) {
         if (item instanceof Int) {
-            return value.compareTo(((Int) item).value);
+            if (value.replaceAll("[0-9]", "").length() != 0) {
+                System.out.println();
+            }
+
+            return Integer.parseInt(value) - Integer.parseInt(((Int) item).getValue());
+
         }
-        return -item.comparedIntResult(new AList("["+value+"]"));
+        return new AList("["+value+"]").comparedIntResult(item);
     }
 
     @Override

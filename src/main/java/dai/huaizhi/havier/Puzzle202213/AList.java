@@ -15,6 +15,7 @@ public class AList implements Item{
     private boolean numberGrabbing = false;
 
 
+
     AList(String listString) {
         value = listString;
         listString = unShelled(listString);
@@ -96,10 +97,14 @@ public class AList implements Item{
 
     @Override
     public int comparedIntResult(Item item) {
+        //test
+        var aa = Main.packages;
+
         if (item instanceof Int) {
             return comparedIntResult(new AList("[" + ((Int) item).getValue() + "]"));
         }
-        for (var i = 0; i < Math.min(items.size(), item.getItemsSize());i++ ) {
+        var a = Math.min(items.size(), item.getItemsSize());
+        for (var i = 0; i < a;i++ ) {
             if (getItemByOrder(i).comparedIntResult(item.getItemByOrder(i)) == 0) {
                 continue;
             }
@@ -111,7 +116,6 @@ public class AList implements Item{
         if (items.size() > item.getItemsSize()) {
             return 1;
         }
-        System.out.println("EQUAL!!!!");
         return 0;
     }
 
@@ -128,4 +132,7 @@ public class AList implements Item{
         return items.size();
     }
 
+    public String getValue() {
+        return value;
+    }
 }
