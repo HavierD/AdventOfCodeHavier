@@ -4,21 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3829f5f1-f3b2-4871-a0cc-f8f4a3298723" name="Changes" comment="2022 15 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/ExcelWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Matirx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/NoName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/RawData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Route.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Valve.java" afterDir="false" />
+    <list default="true" id="3829f5f1-f3b2-4871-a0cc-f8f4a3298723" name="Changes" comment="2022 16 debugging">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/Coordinate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/JetPuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/PuffDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/RawData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/Rock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/RockFaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/RockHorizontal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/RockL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/RockPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/RockSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/RockVertical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/Space.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/AList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/AList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/Int.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/Int.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202213/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202215/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202215/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="secondStar" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,7 +78,20 @@
       <recent name="D:\Projects\JavaProjects\AdventOfCodePuzzles\AdventOfCode\src\main\java\dai\huaizhi\havier\Puzzle202202_2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.dai.huaizhi.havier.Puzzle202216.Main">
+  <component name="RunManager" selected="Application.dai.huaizhi.havier.Puzzle202217.Main">
+    <configuration name="JetPuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202217.JetPuffer" />
+      <module name="AdventOfCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202217.ExtractRock" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202216.Main" />
       <module name="AdventOfCode" />
@@ -117,25 +131,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dai.huaizhi.havier.Puzzle202213.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202213.Main" />
+    <configuration name="dai.huaizhi.havier.Puzzle202217.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202217.Main" />
       <module name="AdventOfCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202213.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="h618_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dai.huaizhi.havier.Puzzle202216.h618_2" />
-      <module name="AdventOfCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202216.*" />
+          <option name="PATTERN" value="dai.huaizhi.havier.Puzzle202217.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202216.Main" />
-        <item itemvalue="Application.h618_2" />
+        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202217.Main" />
+        <item itemvalue="Application.JetPuffer" />
         <item itemvalue="Application.Route" />
         <item itemvalue="Application.Main2" />
-        <item itemvalue="Application.dai.huaizhi.havier.Puzzle202213.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +169,7 @@
       <workItem from="1670817760697" duration="55957000" />
       <workItem from="1671017654937" duration="42203000" />
       <workItem from="1671138906402" duration="2513000" />
-      <workItem from="1671141507231" duration="38878000" />
+      <workItem from="1671141507231" duration="76588000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1670372455926</created>
@@ -226,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671106338394</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2022 16 debugging">
+      <created>1671494870470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671494870470</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,7 +251,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="secondStar" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -263,7 +271,8 @@
     <MESSAGE value="2022 all completed yet (until 08122022 noon)" />
     <MESSAGE value="2022 08 completed" />
     <MESSAGE value="2022 15 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="2022 15 completed" />
+    <MESSAGE value="2022 16 debugging" />
+    <option name="LAST_COMMIT_MESSAGE" value="2022 16 debugging" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -324,58 +333,22 @@
           <option name="timeStamp" value="314" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>124</line>
-          <option name="timeStamp" value="354" />
+          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/Space.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="425" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>138</line>
-          <option name="timeStamp" value="355" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>148</line>
-          <option name="timeStamp" value="356" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>145</line>
-          <option name="timeStamp" value="357" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="358" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>160</line>
-          <option name="timeStamp" value="359" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>143</line>
-          <option name="timeStamp" value="360" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>157</line>
-          <option name="timeStamp" value="361" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>158</line>
-          <option name="timeStamp" value="362" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202216/Main.java</url>
-          <line>152</line>
-          <option name="timeStamp" value="364" />
+          <url>file://$PROJECT_DIR$/src/main/java/dai/huaizhi/havier/Puzzle202217/Space.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="428" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.StackOverflowError" package="java.lang" />
           <option name="timeStamp" value="100" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.UnsupportedOperationException" package="java.lang" />
+          <option name="timeStamp" value="365" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
